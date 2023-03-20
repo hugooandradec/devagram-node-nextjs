@@ -50,11 +50,11 @@ const handler = nc()
             console.log(e);
             return res.status(500).json({erro: 'Erro ao cadastrar usuário.'});
         }
-    });
+});
 
 export const config = {
     api: {
-        bodyParse: false
+        bodyParser: false
     }
 };
     
