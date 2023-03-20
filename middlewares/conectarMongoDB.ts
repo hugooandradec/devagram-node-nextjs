@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse, NextApiHandler } from "next";
 import mongoose from "mongoose";
-import { reduceEachTrailingCommentRange } from "typescript";
 import type {RespostaPadraoMsg} from '../types/RespostaPadraoMsg';
 
 export const conectarMongoDB = (handler: NextApiHandler) =>
